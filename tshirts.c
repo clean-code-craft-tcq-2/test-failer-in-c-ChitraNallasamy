@@ -14,7 +14,7 @@ char size(int cms) {
 }
 
 int main() {
-    assert(size(31) == 'S');
+    assert(size(30) == 'S');
     assert(size(38) == 'M');
     assert(size(42) == 'L');
     printf("All is well (maybe!)\n");
